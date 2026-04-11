@@ -145,6 +145,11 @@ footer {
   margin: 10px auto;
 }
 
+.level-card p {
+  max-width: 650px;
+  margin: 10px auto;
+  text-align: left;
+}
 
 #3d-modeling {
   padding: 40px 20px;
