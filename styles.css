@@ -2,6 +2,8 @@ body {
   font-size: 18px;
   font-family: 'Inter', sans-serif;
   padding-bottom: 80px;
+  background-color: #121212;
+  color: #eaeaea;
 }
 
 h2 {
