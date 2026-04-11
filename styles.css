@@ -133,10 +133,10 @@ footer {
 }
 
 .level-card img {
-  width: 100%;
+  width: 80%;
   border-radius: 8px;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 10px auto;
 }
 
 #3d-modeling {
