@@ -134,6 +134,7 @@ footer {
   padding: 20px;
   border-radius: 10px;
   color: #fff;
+  border: 1px solid #222;
 }
 
 .level-card img {
