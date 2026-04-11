@@ -94,6 +94,27 @@ footer {
   cursor: pointer;
 }
 
+.level-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 5vw;
+}
+
+.level-card {
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.level-card img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 10px;
+}
+
 #3d-modeling {
   padding: 40px 20px;
 }
