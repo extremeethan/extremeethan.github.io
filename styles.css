@@ -59,6 +59,16 @@ footer {
   color: #eaeaea;
 }
 
+.project-title a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.project-title a:hover {
+  opacity: 0.8;
+}
+
 .project-card p {
   opacity: 0.85;
   margin-top: 8px;
