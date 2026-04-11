@@ -131,9 +131,9 @@ footer {
 
 .level-card {
   background: #111;
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
-  color: #eaeaea;
+  color: #fff;
 }
 
 .level-card img {
@@ -163,7 +163,7 @@ footer {
   background: #111;
   padding: 15px;
   border-radius: 10px;
-  color: #eaeaea;
+  color: #fff;
 }
 
 .model-card p {
