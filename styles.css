@@ -265,6 +265,16 @@ footer img:hover {
   gap: 8px 25px;
 }
 
+.skills-card li:nth-child(odd),
+.tools-card li:nth-child(odd) {
+  text-align: left;
+}
+
+.skills-card li:nth-child(even),
+.tools-card li:nth-child(even) {
+  text-align: right;
+}
+
 .skills-grid h2,
 .tools-grid h2 {
   text-align: center;
