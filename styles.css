@@ -149,6 +149,16 @@ footer img:hover {
   line-height: 1.4;
 }
 
+.project-card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.project-card li {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
 .project-card img {
   width: 100%;
   border-radius: 8px;
