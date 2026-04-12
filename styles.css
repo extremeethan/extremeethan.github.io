@@ -25,6 +25,53 @@ p {
   color: #eaeaea;
 }
 
+/* NAVBAR CONTAINER */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #0d0d0d;
+  border-bottom: 1px solid #222;
+  z-index: 1000;
+}
+
+/* NAV LIST */
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.navbar a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-size: 16px;
+  position: relative;
+  transition: 0.2s ease;
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #eaeaea;
+  left: 0;
+  bottom: -5px;
+  transition: 0.2s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+}
+
+.navbar a:hover {
+  color: #aaa;
+}
+
 section h2 {
   text-align: center;
   margin-bottom: 20px;
