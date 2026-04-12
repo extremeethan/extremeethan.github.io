@@ -281,6 +281,18 @@ footer img:hover {
   text-align: center;
 }
 
+.info-card p {
+  padding-left: 20px;
+}
+
+.skills-grid,
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 40px;
+  padding: 10px 20px;
+}
+
 section:last-of-type {
   padding-bottom: 100px;
 }
