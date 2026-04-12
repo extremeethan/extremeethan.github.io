@@ -234,12 +234,16 @@ footer img:hover {
   border: 1px solid #222;
   border-radius: 10px;
   padding: 25px;
+
   max-width: 1000px;
   margin: 100px auto 40px auto;
 
   display: flex;
   gap: 25px;
+
   align-items: center;
+  justify-content: center;
+
   color: #eaeaea;
 }
 
