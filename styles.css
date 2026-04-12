@@ -150,13 +150,15 @@ footer img:hover {
 }
 
 .project-card ul {
-  padding-left: 20px;
-  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
 }
 
 .project-card li {
-  margin-bottom: 6px;
-  line-height: 1.4;
+  margin: 0;
+  padding: 4px 0;
+  line-height: 1.3;
 }
 
 .project-card img {
@@ -301,6 +303,13 @@ footer img:hover {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 40px;
   padding: 10px 20px;
+}
+
+.skills-grid ul,
+.tools-grid ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6px 20px;
 }
 
 section:last-of-type {
