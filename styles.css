@@ -25,7 +25,6 @@ p {
   color: #eaeaea;
 }
 
-/* NAVBAR CONTAINER */
 nav {
   position: fixed;
   top: 0;
@@ -35,7 +34,6 @@ nav {
   z-index: 1000;
 }
 
-/* NAV LIST */
 .navbar {
   list-style: none;
   display: flex;
