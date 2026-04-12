@@ -242,6 +242,7 @@ footer img:hover {
 .profile-text h2 {
   margin: 0 0 10px 0;
   align-self: flex-start;
+  text-align: left;
 }
 
 .profile-text p {
