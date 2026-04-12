@@ -296,14 +296,30 @@ footer img:hover {
 }
 
 
+.skills-grid ul,
+.tools-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 40px;
+
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 .skills-grid li:nth-child(odd),
 .tools-grid li:nth-child(odd) {
-  text-align: left;
+  justify-self: end;
+  text-align: right;
 }
 
 .skills-grid li:nth-child(even),
 .tools-grid li:nth-child(even) {
-  text-align: right;
+  justify-self: start;
+  text-align: left;
 }
 
 .skills-grid h2,
