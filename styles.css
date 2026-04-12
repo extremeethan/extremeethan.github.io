@@ -231,7 +231,6 @@ footer img:hover {
   margin: 0 auto 20px auto;
 }
 
-
 .project-card ul,
 .skills-grid ul,
 .tools-grid ul {
@@ -242,6 +241,25 @@ footer img:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 8px 25px;
+}
+
+.education-item {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.education-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.education-item li {
+  margin: 4px 0;
+}
+
+.edu-date {
+  opacity: 0.7;
 }
 
 .skills-grid,
