@@ -218,13 +218,58 @@ footer img:hover {
   padding: 25px 35px;
 }
 
-.profile-card img {
+.profile-card {
+  background: #0d0d0d;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 30px;
+
+  max-width: 1000px;
+  margin: 100px auto 40px auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.profile-top {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.profile-top img {
   width: 220px;
   height: 220px;
   object-fit: cover;
   border-radius: 10px;
 }
 
+.profile-text {
+  flex: 1;
+}
+
+.profile-text h2 {
+  margin-top: 0;
+}
+
+.profile-contact {
+  text-align: center;
+  border-top: 1px solid #222;
+  padding-top: 15px;
+}
+
+.profile-contact p {
+  margin: 5px 0;
+  opacity: 0.85;
+}
+
+.profile-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
 .info-card {
   max-width: 1000px;
