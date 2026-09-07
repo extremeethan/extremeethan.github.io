@@ -272,7 +272,7 @@ footer img:hover {
 .profile-contact {
   text-align: center;
   border-top: 1px solid #222;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .profile-contact p {
@@ -281,78 +281,49 @@ footer img:hover {
 }
 
 
-.info-card {
-  max-width: 1000px;
-  margin: 0 auto 20px auto;
+.profile-section {
+  border-top: 1px solid #222;
+  padding-top: 15px;
+}
+
+.profile-section h2 {
+  font-size: 24px;
+  text-align: left;
+  margin: 0 0 15px 0;
 }
 
 .education-item {
   margin-bottom: 15px;
-  text-align: center;
+}
+
+.education-item:last-child {
+  margin-bottom: 0;
+}
+
+.education-item h3 {
+  margin: 0 0 4px 0;
+  text-align: left;
 }
 
 .education-item ul {
   list-style: none;
   padding: 0;
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 
 .education-item li {
-  margin: 4px 0;
+  margin: 3px 0;
 }
 
 .edu-date {
   opacity: 0.7;
+  margin: 0 0 5px 0;
 }
 
-.profile-section {
-  border-top: 1px solid #222;
-  padding-top: 20px;
-}
-
-.profile-section h2 {
-  text-align: center;
-  margin-bottom: 15px;
-}
 
 .skills-list {
   list-style: none;
   padding: 0;
-  margin: 0 auto;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px 40px;
-
-  max-width: 600px;
-}
-
-.skills-grid,
-.tools-grid {
-  max-width: 1000px;
-  margin: 0 auto 20px auto;
-  background: #0d0d0d;
-  border: 1px solid #222;
-  border-radius: 10px;
-  padding: 25px 35px;
-}
-
-.skills-grid ul,
-.tools-grid ul {
-  list-style: none;
-  padding: 10px 20px;
-  margin: 0;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px 25px;
-}
-
-
-.skills-grid ul,
-.tools-grid ul {
-  list-style: none;
-  padding: 0;
   margin: 0;
 
   display: grid;
@@ -360,25 +331,6 @@ footer img:hover {
   gap: 8px 40px;
 
   max-width: 600px;
-  margin: 0 auto;
-}
-
-.skills-grid li:nth-child(odd),
-.tools-grid li:nth-child(odd) {
-  justify-self: end;
-  text-align: right;
-}
-
-.skills-grid li:nth-child(even),
-.tools-grid li:nth-child(even) {
-  justify-self: start;
-  text-align: left;
-}
-
-.skills-grid h2,
-.tools-grid h2 {
-  text-align: center;
-  margin-bottom: 15px;
 }
 
 
