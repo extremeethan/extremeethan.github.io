@@ -292,6 +292,11 @@ footer img:hover {
   margin: 0 0 15px 0;
 }
 
+.profile-section p {
+  margin: 0;
+  opacity: 0.85;
+}
+
 .education-item {
   margin-bottom: 15px;
 }
