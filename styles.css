@@ -218,6 +218,9 @@ footer img:hover {
   text-align: left;
 }
 
+#level-design {
+  padding-top: 40px;
+}
 
 .profile-card {
   background: #0d0d0d;
@@ -361,10 +364,6 @@ footer img:hover {
 
 html {
   scroll-behavior: smooth;
-}
-
-main {
-  padding-top: 40px;
 }
 
 section:last-of-type {
