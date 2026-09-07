@@ -194,6 +194,9 @@ footer img:hover {
   display: block;
 }
 
+#level-design {
+  padding-top: 40px;
+}
 
 .level-grid {
   display: grid;
@@ -218,10 +221,6 @@ footer img:hover {
   text-align: left;
 }
 
-#level-design {
-  padding-top: 40px;
-}
-
 .profile-card {
   background: #0d0d0d;
   border: 1px solid #222;
@@ -229,7 +228,7 @@ footer img:hover {
   padding: 30px;
 
   max-width: 1000px;
-  margin: 100px auto 40px auto;
+  margin: 40px auto;
 
   display: flex;
   flex-direction: column;
@@ -367,5 +366,5 @@ html {
 }
 
 section:last-of-type {
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
