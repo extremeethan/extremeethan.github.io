@@ -365,6 +365,10 @@ html {
   scroll-behavior: smooth;
 }
 
+main {
+  padding-top: 10px;
+}
+
 section:last-of-type {
   padding-bottom: 10px;
 }
