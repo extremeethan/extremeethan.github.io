@@ -232,7 +232,7 @@ footer img:hover {
 
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .profile-top {
@@ -272,7 +272,7 @@ footer img:hover {
 .profile-contact {
   text-align: center;
   border-top: 1px solid #222;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .profile-contact p {
@@ -287,7 +287,7 @@ footer img:hover {
 }
 
 .education-item {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
