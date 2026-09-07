@@ -228,7 +228,7 @@ footer img:hover {
   padding: 30px;
 
   max-width: 1000px;
-  margin: 40px auto;
+  margin: 100px auto 40px auto;
 
   display: flex;
   flex-direction: column;
